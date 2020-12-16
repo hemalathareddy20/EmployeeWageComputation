@@ -8,7 +8,6 @@ namespace EmployeeWageComputation
         public const int IS_PART_TIME = 1;
         public static int computeEmpWage(string company, int empRatePerHour, int numOfWorkingDays, int maxHoursPerMonth  )
         {
-            Console.WriteLine("Welcome to employee wage computation program");
             int empHrs = 0, totalEmpHrs = 0, totalWorkingDays = 0;
             while(totalEmpHrs <= maxHoursPerMonth && totalWorkingDays < numOfWorkingDays)
             {
