@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EmployeeWageComputation
 {
-    public class EmpWageBuilderArray:IComputeEmpWage
+    public class EmpWageBuilderArray : IComputeEmpWage
     {
         public const int IS_FULL_TIME = 2;
         public const int IS_PART_TIME = 1;
